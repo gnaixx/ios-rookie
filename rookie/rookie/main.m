@@ -8,9 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "section6/Section6Test.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        
+        // Section6
+        [Section6Test testCopy];
+        
+        
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

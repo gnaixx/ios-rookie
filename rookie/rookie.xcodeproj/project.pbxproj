@@ -15,6 +15,9 @@
 		BC1B347322FF1A4D0079DC86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1B347222FF1A4D0079DC86 /* main.m */; };
 		BC1B347D22FF1A4E0079DC86 /* rookieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1B347C22FF1A4E0079DC86 /* rookieTests.m */; };
 		BC1B348822FF1A4E0079DC86 /* rookieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1B348722FF1A4E0079DC86 /* rookieUITests.m */; };
+		BC1B349822FF1D810079DC86 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1B349722FF1D810079DC86 /* ClassA.m */; };
+		BC1B349B22FF1E380079DC86 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1B349A22FF1E380079DC86 /* ClassB.m */; };
+		BC1B349E22FF234D0079DC86 /* Section6Test.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1B349D22FF234D0079DC86 /* Section6Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		BC1B348322FF1A4E0079DC86 /* rookieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rookieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1B348722FF1A4E0079DC86 /* rookieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rookieUITests.m; sourceTree = "<group>"; };
 		BC1B348922FF1A4E0079DC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1B349622FF1D810079DC86 /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		BC1B349722FF1D810079DC86 /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		BC1B349922FF1E380079DC86 /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		BC1B349A22FF1E380079DC86 /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		BC1B349C22FF234D0079DC86 /* Section6Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Section6Test.h; sourceTree = "<group>"; };
+		BC1B349D22FF234D0079DC86 /* Section6Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Section6Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +145,12 @@
 		BC1B349522FF1A8B0079DC86 /* section6 */ = {
 			isa = PBXGroup;
 			children = (
+				BC1B349622FF1D810079DC86 /* ClassA.h */,
+				BC1B349722FF1D810079DC86 /* ClassA.m */,
+				BC1B349922FF1E380079DC86 /* ClassB.h */,
+				BC1B349A22FF1E380079DC86 /* ClassB.m */,
+				BC1B349C22FF234D0079DC86 /* Section6Test.h */,
+				BC1B349D22FF234D0079DC86 /* Section6Test.m */,
 			);
 			path = section6;
 			sourceTree = "<group>";
@@ -272,7 +287,10 @@
 			files = (
 				BC1B346822FF1A4D0079DC86 /* ViewController.m in Sources */,
 				BC1B347322FF1A4D0079DC86 /* main.m in Sources */,
+				BC1B349822FF1D810079DC86 /* ClassA.m in Sources */,
 				BC1B346522FF1A4D0079DC86 /* AppDelegate.m in Sources */,
+				BC1B349E22FF234D0079DC86 /* Section6Test.m in Sources */,
+				BC1B349B22FF1E380079DC86 /* ClassB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
